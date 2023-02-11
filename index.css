@@ -1,0 +1,113 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;500&family=Itim&family=Lato:wght@300&display=swap');
+.container{
+   
+    /*flex-direction: column;*/
+    /* justify-content: space-evenly; */
+    /* flex-wrap: wrap; */
+    width: 20vw;
+    display: flex;
+
+}
+
+
+.box1 li{
+    text-decoration:none; 
+     list-style: none;
+     
+    
+}
+  
+.box1{
+    width: 35vw;
+    height: 95vh;
+    background-color:   gray ;
+    flex-grow: 1;
+    border-radius: 5px;
+    /* border-style: solid; */
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 3px;
+    font-size: 2em;
+    background-color: lightbrown;
+    text-shadow: 2px 2px white;
+    text-align: left;
+
+}
+
+.main{
+  background-color: white;
+  width: 100vw;
+  height: 95vh;
+  border-radius: 5px;
+
+}
+.main input{
+    margin-top: 52px;
+    margin-left: 20px;
+    border-radius: auto;
+    border-color:  burlywood;
+    padding: 10px;
+    width: 40vw;
+}
+
+
+.infocontainer{
+    background-color: white;
+    height: 100h;
+    width: 85vw;
+    /* margin: 144px auto; */
+    display: flex;
+    border-radius: 5px;
+    color: black;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+
+
+.hello{
+    font-size: 85px;
+    font-family: 'Source Code Pro', monospace;}
+.name{
+    font-size: 70px;
+
+
+}
+
+.about{
+    font-size: 50px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.buttons{
+    margin-top: 34px;
+}
+
+.picture img{
+    height: 79vh;
+    width: 30vw;
+    margin-left: 100px;
+    float: right;
+
+}
+
+.buttons button{
+    padding: 2px 4px;
+    border-radius: 22px;
+    color: black;
+    font-weight: lighter;
+    font-size: 21px;
+    margin-left: 19px;
+    margin: 0 0 px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+

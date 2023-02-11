@@ -1,0 +1,19 @@
+*{
+  box-sizing: border-box;
+  background-color: burlywood;
+  padding: 5px;
+}
+.img{
+  width: 33.33%;
+  float: left;
+  padding: 3px;
+  height: 500%;
+}
+h1{
+  text-align: center;
+  height: 38px;
+  width: 100%;
+  background-color: antiquewhite;
+  margin-top: 30px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}

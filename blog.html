@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="blog.css">
+    <style>
+        .color-change{
+            background-color: gray;
+            color: aliceblue;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="main">
+       
+        <div class="blogContainer">
+            <h1>Blogs by Aakrit</h1>
+            
+            <div class="blogitem">
+               <h2>Professional Gammer</h2>
+               <p>Professional gamers are individuals who play video games competitively for a living. They often participate in esports tournaments and events, which offer substantial cash prizes for the winners. Professional gamers may also earn a living through sponsorships, streaming their gameplay on platforms like Twitch, and selling merchandise.Professional gaming is a rapidly growing industry, with more and more opportunities emerging for gamers to earn a living through their passion. Whether you're interested in playing competitively or becoming involved in other aspects of the industry, there are many paths to success as a professional gamer.</p>   
+               <button onclick= "theme()">Read more</button>          
+            </div>
+            <div class="blogitem">
+              <h2>Web Developer</h2>
+                <p>Currently in am student and learning to develop the coding.</p>
+                <button onclick= "theme()">Read more</button>     
+            </div>
+            <div class="blogitem">
+                <h2>Explore Places</h2>
+                <p>People often visit places</p>
+                <button onclick= "theme()">Read more</button>
+                <footer>
+                    <p>Copyright © 2023 My Blog</p>
+                  </footer>    
+            </div>
+        </div>
+    </div>
+<div class="container">
+  <div class="box1"></div>
+    
+    <img name = "slider" width=200 height=auto>
+    <script>
+         function theme(){
+            var element = document.body;
+            element.classList.toggle("color-change");
+        }
+        var i = 0;
+        var images = []; 
+        var time = 3000;
+
+        images[0] = 'dell1.jpg';
+        images[1] = 'dell2.jpg';
+        images[2] = 'dell3.jpg';
+
+        function slideshow(){
+            document.slider.src = images[i];
+            if(i<images.length-1){
+               i++;
+            }else{
+                i=0;
+            }
+
+            setTimeout("slideshow()",time);
+        }
+
+        window.onload = slideshow;
+    </script>
+ </div>
+</div>
+   
+
+
+
+
+
+<!-- COlor change -->
+
